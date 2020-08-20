@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&family=Rubik&display=swap');
+
+.header {
+  height: 100px;
+  width: auto;
+  padding-left: 40px;
+
+  background: #00a77d;
+}
+
+.name {
+  line-height: 100px;
+
+  font-family: 'PT Sans', sans-serif;
+  color: snow;
+}
+
+.img-container {
+  height: 600px;
+  width: auto;
+  background-image: url(/img/wave_back.png);
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.nav-container {
+  height: 100px;
+  width: auto;
+  padding-left: 40px;
+  line-height: 100px;
+  /* word-spacing: 15px; */
+
+  background: #00a77d;
+}
+
+.nav-link {
+  font-family: 'Rubik', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.nav-link:visited {
+  text-decoration: line-through;
+}
+
+.content-block {
+  padding-left: 40px;
+  font-family: 'Rubik', sans-serif;
+}
+
+.footer {
+  height: 100px;
+  width: auto;
+  padding-left: 40px;
+
+  background: #00a77d;
+}
+
+.mcs-logo {
+  position: relative;
+  top: 27px;
+}
+
+.course-name {
+  line-height: 100px;
+  position: relative;
+  float: right;
+  right: 40px;
+
+  font-family: 'Rubik', sans-serif;
+  font-size: 20px;
+  color: snow;
+}
