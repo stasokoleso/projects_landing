@@ -18,7 +18,7 @@
 .img-container {
   height: 600px;
   width: auto;
-  background-image: url(/img/wave_back.jpg);
+  background-image: url(https://github.com/stasokoleso/projects_landing/blob/master/img/wave_back.jpg?raw=true);
   background-position: center;
   background-repeat: no-repeat;
 
@@ -58,9 +58,9 @@
   height: 100px;
   line-height: 100px;
   padding-right: 40px;
-  
+
   background: #00a77d;
-  background-image: url(/img/mcs_logo.png);
+  background-image: url(https://github.com/stasokoleso/projects_landing/blob/master/img/mcs_logo.png?raw=true);
   background-repeat: no-repeat;
   background-position: 40px center;
 
