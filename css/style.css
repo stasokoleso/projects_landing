@@ -29,7 +29,6 @@
   width: auto;
   padding-left: 40px;
   line-height: 100px;
-  /* word-spacing: 15px; */
 
   background: #00a77d;
 }
@@ -57,24 +56,26 @@
 
 .footer {
   height: 100px;
-  width: auto;
-  padding-left: 40px;
-
-  background: #00a77d;
-}
-
-.mcs-logo {
-  position: relative;
-  top: 27px;
-}
-
-.course-name {
   line-height: 100px;
-  position: relative;
-  float: right;
-  right: 40px;
+  padding-right: 40px;
+  
+  background: #00a77d;
+  background-image: url(/img/mcs_logo.png);
+  background-repeat: no-repeat;
+  background-position: 40px center;
 
   font-family: 'Rubik', sans-serif;
   font-size: 20px;
+  color: snow;
+  text-align: right;
+}
+
+.course-link {
+  text-decoration: none;
+  color: snow;
+}
+
+.course-link:visited {
+  text-decoration: none;
   color: snow;
 }
